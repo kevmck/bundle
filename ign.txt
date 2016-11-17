@@ -1,0 +1,6 @@
+
+
+client received response: 
+test
+
+./testRabbitMQClient.php END
