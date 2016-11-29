@@ -34,7 +34,7 @@ os.system("php /home/vm164/bundle/bundle/rabbitMQClient.php updateBundleVer")
 
 print("Cleaning up temp files...")
 os.system("rm -rf " + temp + "/api")
-os.system("rm -r " + temp + "/APIv" + ver + ".tgz")
+#os.system("rm -r " + temp + "/APIv" + ver + ".tgz")
 
 os.system("echo")
 os.system("echo Operation completed successfully.")
